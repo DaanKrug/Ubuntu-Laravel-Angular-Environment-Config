@@ -196,10 +196,8 @@ sudo n stable
 =====================================================================================
 
 Install PHP composer: follow instructions on https://getcomposer.org/download/
-
-composer global require laravel/installer
  
-laravel new example-app
+composer create-project laravel/laravel example-app
  
 cd example-app
  
